@@ -1,0 +1,20 @@
+.passwordShow{
+    position: absolute;
+    right: 25px;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    margin-top: -17px;
+   }
+.chatSectionHide{
+    display:none;
+}
+
+.status-online::before {
+    background: #1cb787;
+}
+
+.status-ofline::before {
+    background: #ff0000cc;
+}
+
+   
